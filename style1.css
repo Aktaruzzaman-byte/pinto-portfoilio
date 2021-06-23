@@ -1,7 +1,71 @@
-p{
-    font-family: 'Poppins', sans-serif;
-    margin: 0px;
-}
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    color: darkmagenta;
+}
+section{
+    height: 500px;
+}
+.image{
+    width: 500px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    background-color: darkgrey;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.link-button{
+    text-decoration: none;
+    background-image:linear-gradient(lightsalmon,
+    tomato
+    ) ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.head{
+    text-align: center;
+    text-decoration: none;
+    background-image:linear-gradient(rgb(179, 62, 16),
+    tomato
+    ) ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    height: 60px;
+    width: 300px;
+    margin-left: 40%;
+    padding-left: 2%;
+}
+.first-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+    background-color: rgb(236, 190, 190);
+    
+}
+#constru{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.size{
+    font-size: 20px;
+    color: rgb(54, 54, 52);
+}
+#constru1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, blueviolet);
+    border-image-slice: 1;
+
 }
